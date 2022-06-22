@@ -1,0 +1,46 @@
+/* For General Styles - Affecting every page */
+html,
+body {
+    font-family: Poppins, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.page {
+    background-color: rgba(203, 234, 237, 0.2);
+}
+
+.btn-link {
+    text-transform: uppercase;
+    color: #006A71;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-transform: uppercase;
+    color: #006A71;
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: #006A71;
+    border-color: transparent;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: #00484d;
+    border-color: transparent;
+}
+
+.btn-secondary {
+    background-color: #FFFFDD;
+    color: #111;
+    border-color: transparent;
+    text-transform: uppercase;
+}
+
+.btn-secondary:hover {
+    background-color: #ffffb5;
+    color: #111;
+    border-color: transparent;
+}
