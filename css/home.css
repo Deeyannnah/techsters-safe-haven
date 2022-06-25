@@ -197,3 +197,34 @@
 .home .testimonial-section strong {
     color: #cd0000;
 }
+
+.home .gallery-section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.home .gallery-section h2 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #006a71;
+    margin-bottom: 1rem;
+}
+
+.home .gallery-section p {
+    width: 60%;
+    margin: 0 auto;
+    opacity: .7;
+}
+
+.home .gallery-section .carousel {
+    margin-top: 3rem;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.home .gallery-section .carousel .carousel-item {
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
