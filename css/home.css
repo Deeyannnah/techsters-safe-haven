@@ -177,3 +177,23 @@
     margin-left: 80px;
     font-size: .95rem;
 }
+
+.home .testimonial-section {
+    background-color: #ffffff;
+    padding: 5rem 0;
+}
+
+.home .testimonial-section h2 {
+    color: #006a71;
+    font-size: 3.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.home .testimonial-section p {
+    padding-right: 15%;
+}
+
+.home .testimonial-section strong {
+    color: #cd0000;
+}
