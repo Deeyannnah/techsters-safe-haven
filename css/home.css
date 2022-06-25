@@ -39,7 +39,12 @@
 }
 
 .home .hero-section .scroll-btn {
+    color: #111111;
     right: -2rem;
+}
+
+.home .hero-section .scroll-btn:hover {
+    color: #006a71 !important;
 }
 
 .home .hero-section .scroll-btn span {
