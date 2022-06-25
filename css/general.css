@@ -122,3 +122,26 @@ header nav a:hover {
     color: #006a71;
     text-decoration: underline;
 }
+
+
+.hero-title {
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.hero-title h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 100%;
+    color: #111111;
+}
+
+.hero-title h1 span {
+    color: #006a71;
+}
+
+.hero-title p {
+    padding: 0 10%;
+    color: #111111;
+    opacity: .8;
+}
