@@ -20,16 +20,62 @@
   </head>
 
   <body>
+    <header>
+      <div class="container">
+        <a href="/" class="logo">
+          <img src="img/favicon.svg" alt="Icon" />
+          <img src="img/logo.svg" alt="Logo" />
+        </a>
+        <nav>
+          <a href="./index.html">Home</a>
+          <a href="./stories.html">Stories</a>
+          <a href="./faq.html">FAQ</a>
+        </nav>
+
+        <a class="btn btn-primary request-btn" href="./request.html"
+          >Request Help</a
+        >
+      </div>
+      <div></div>
+    </header>
     <main class="page request">
       <div class="container">
-        <h1>Send a Request</h1>
-        <a class="btn btn-primary" href="./index.html">Home</a>
-        <a class="btn btn-secondary" href="./stories.html">Stories</a>
-        <a class="btn btn-link" href="./faq.html">FAQ</a>
-        <a class="btn btn-link" href="./request.html">Request</a>
+        <div class="container p-5 ">
+          <div class="text-center">
+              <h2>CONTACT</h23>
+                  <P>Your information are save with us @ SAFE HAVEN.</P>
+          </div>
+      </div>
+      <div class=" row page ">
+          <!-- <img src="..." class="img-fluid" alt="..."> -->
+          <div class=" w-60 mx-auto p-5 cntact-form ">
+              <div class="mb-3 w-50 mx-auto ">
+                  <div class="mb-3 ">
+                      <label for="formGroupExampleInput " class="form-label ">YOUR NAME</label>
+                      <input type="text " class="form-control " id="formGroupExampleInput " placeholder="Please enter your name ">
+                  </div>
+                  <div class="mb-3 ">
+                      <label for="formGroupExampleInput2 " class="form-label ">PHONE NUMBER</label>
+                      <input type="number " class="form-control " id="formGroupExampleInput2 " placeholder="enter your phone numeber ">
+                  </div>
+                  <div class="mb-3 ">
+                      <label for="exampleFormControlInput1 " class="form-label ">EMAIL-ADDRESS</label>
+                      <input type="email " class="form-control " id="exampleFormControlInput1 " placeholder="name@example.com ">
+                  </div>
+                  <div class="mb-3 ">
+                      <label for="exampleFormControlTextarea1 " class="form-label ">MESSAGE</label>
+                      <textarea class="form-control " id="exampleFormControlTextarea1 " rows="3 "></textarea>
+                  </div>
+
+              </div>
+              <div class="col-md-12 text-center">
+                  <button type="button " class="btn btn-outline-success w-50  mt-5">MESSAGE US</button>
+              </div>
+
+          </div>
       </div>
     </main>
-
+    <footer></footer>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
   </body>

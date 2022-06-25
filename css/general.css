@@ -64,3 +64,61 @@ body {
     color: #111;
     border-color: transparent;
 }
+
+/* Header styles */
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    background-color: #ffffff;
+    text-align: center;
+    height: 70px;
+    box-shadow: 0 0 5px rgba(17, 17, 17, .2);
+}
+
+header .container {
+    height: 100%;
+}
+
+header .logo {
+    position: absolute;
+    left: .75rem;
+    top: 15px;
+}
+
+header .logo img:first-child {
+    height: 40px;
+    width: auto;
+}
+
+header .logo img:last-child {
+    height: 18px;
+    width: auto;
+}
+
+header .request-btn {
+    position: absolute;
+    right: .75rem;
+    top: 14px;
+}
+
+header nav {
+    padding: 1.35rem 0;
+}
+
+
+header nav a {
+    color: #111111;
+    text-decoration: none;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #006a71;
+    text-decoration: underline;
+}
