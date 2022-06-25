@@ -3,11 +3,27 @@ html,
 body {
     font-family: Poppins, Tahoma, sans-serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 .page {
     background-color: rgba(203, 234, 237, 0.2);
 }
+
+.container {
+    position: relative;
+}
+
+.scroll-btn {
+    position: absolute;
+    bottom: 120px;
+    transform: rotate(90deg);
+    text-decoration: none;
+    color: #111111;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
 
 .btn-link {
     text-transform: uppercase;
@@ -25,6 +41,8 @@ body {
     background-color: #006A71;
     border-color: transparent;
     text-transform: uppercase;
+    padding: .5rem 1.5rem;
+    border-radius: 12px;
 }
 
 .btn-primary:hover {
@@ -37,6 +55,8 @@ body {
     color: #111;
     border-color: transparent;
     text-transform: uppercase;
+    padding: .5rem 1.5rem;
+    border-radius: 12px;
 }
 
 .btn-secondary:hover {

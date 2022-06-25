@@ -1,2 +1,231 @@
 /* For Home Page Specific Styles */
-.home {}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    background-color: #ffffff;
+    text-align: center;
+    height: 70px;
+    box-shadow: 0 0 5px rgba(17, 17, 17, .2);
+}
+
+header .container {
+    height: 100%;
+}
+
+header .logo {
+    position: absolute;
+    left: .75rem;
+    top: 15px;
+}
+
+header .logo img:first-child {
+    height: 40px;
+    width: auto;
+}
+
+header .logo img:last-child {
+    height: 18px;
+    width: auto;
+}
+
+header .request-btn {
+    position: absolute;
+    right: .75rem;
+    top: 14px;
+}
+
+header nav {
+    padding: 1.35rem 0;
+}
+
+
+header nav a {
+    color: #111111;
+    text-decoration: none;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #006a71;
+    text-decoration: underline;
+}
+
+.hero-section {
+    height: calc(100vh - 70px);
+    /* background-color: rgba(255, 255, 181, 0.2); */
+    margin-top: 70px;
+    background-image: url("../img/hero-img.png");
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: bottom center;
+}
+
+.hero-section .container {
+    height: 100%;
+}
+
+.hero-section .info {
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-section .info h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 100%;
+    color: #111111;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section .info h1 span {
+    color: #006a71;
+}
+
+.hero-section .info p {
+    padding: 0 10%;
+    color: #111111;
+    opacity: .8;
+}
+
+.hero-section .scroll-btn {
+    right: -2rem;
+}
+
+.hero-section .scroll-btn span {
+    font-size: 1.2rem;
+}
+
+.why-section {
+    min-height: 100vh;
+    background-color: #CBEAED;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+
+.why-section .info {
+    width: 40%;
+    position: sticky;
+    top: 120px;
+    z-index: 5;
+    background-color: #CBEAED;
+}
+
+
+.why-section .info h2 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #006a71;
+}
+
+.why-section .info p {
+    padding-right: 30%;
+}
+
+.why-section .scroll-btn {
+    left: -2rem;
+}
+
+.why-section .reasons {
+    width: 60%;
+    position: relative;
+    left: 40%;
+    margin-top: -3rem;
+    text-align: right;
+}
+
+.why-section .reasons .reason {
+    display: inline-block;
+    border-radius: 12px;
+    border: none;
+    width: calc(50% - 2rem);
+    margin-left: 1rem;
+    text-align: left;
+    padding: 3rem 2rem;
+}
+
+.why-section .reasons .reason:last-child {
+    width: 60%;
+    margin-top: 1.5rem;
+}
+
+.why-section .reasons .reason h4 {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.why-section .reasons .reason p {
+    opacity: .85;
+}
+
+.how-section {
+    min-height: 100vh;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.how-section .info {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.how-section .info h2 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #006a71;
+}
+
+.how-section .info p {
+    padding: 0 10%;
+}
+
+.how-section .services {
+    margin-top: 4rem;
+}
+
+.how-section .services .service {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    text-align: left;
+    margin-bottom: 3.4rem;
+    padding-right: 1rem;
+}
+
+.how-section .services .service strong {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #006a71;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.how-section .services .service h4 {
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+
+.how-section .services .service p {
+    margin-left: 80px;
+    font-size: 1rem;
+}
