@@ -34,8 +34,7 @@
 
 .home .hero-section .info p {
     padding: 0 10%;
-    color: #111111;
-    opacity: .8;
+    color: rgba(17, 17, 17, .8);
 }
 
 .home .hero-section .scroll-btn {
@@ -223,7 +222,7 @@
 }
 
 .home .gallery-section .carousel .carousel-item {
-    height: 75vh;
+    height: 80vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
