@@ -1,2 +1,13 @@
 /* For FAQ Page Specific Styles */
 .faq {}
+
+.faq .faq-wrap {
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.faq .faq-wrap .accordion h2 button {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
