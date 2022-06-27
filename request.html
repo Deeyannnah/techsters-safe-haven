@@ -1,34 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Safe Haven | Request Solace</title>
 
-    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/general.css">
-    <link rel="stylesheet" href="./css/request.css">
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/request.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,700&display=swap"
-        rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <header>
+      <div class="container">
+        <a href="/" class="logo">
+          <img src="img/favicon.svg" alt="Icon" />
+          <img src="img/logo.svg" alt="Logo" />
+        </a>
+        <nav>
+          <a href="./index.html">Home</a>
+          <a href="./stories.html">Stories</a>
+          <a href="./faq.html">FAQ</a>
+        </nav>
+
+        <a class="btn btn-primary request-btn" href="./request.html"
+          >Request Help</a
+        >
+      </div>
+      <div></div>
+    </header>
     <main class="page request">
-        <div class="container">
-            <h1>Send a Request</h1>
-            <a class="btn btn-primary" href="./index.html">Home</a>
-            <a class="btn btn-secondary" href="./stories.html">Stories</a>
-            <a class="btn btn-link" href="./faq.html">FAQ</a>
-            <a class="btn btn-link" href="./request.html">Request</a>
+      <div class="container">
+        <div class="hero-title">
+          <h1>Request <span>Help</span></h1>
+          <p>Your information is safe with us</p>
         </div>
-    </main>
 
+        <div class="row">
+          <div class="w-60 mx-auto p-5">
+            <div class="mb-3 w-50 mx-auto">
+              <div class="mb-3">
+                <label for="formGroupExampleInput " class="form-label"
+                  >YOUR NAME</label
+                >
+                <input
+                  type="text "
+                  class="form-control"
+                  id="formGroupExampleInput "
+                  placeholder="Please enter your name "
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phoneInput" class="form-label">PHONE NUMBER</label>
+                <input
+                  type="number "
+                  class="form-control"
+                  id="phoneInput "
+                  placeholder="Enter any number we can reach you on "
+                />
+              </div>
+              <div class="mb-3">
+                <label for="emailInput" class="form-label">EMAIL ADDRESS</label>
+                <input
+                  type="email "
+                  class="form-control"
+                  id="emailInput "
+                  placeholder="name@example.com "
+                />
+              </div>
+              <div class="mb-3">
+                <label for="messageInput " class="form-label">MESSAGE</label>
+                <textarea
+                  class="form-control"
+                  id="messageInput"
+                  rows="3 "
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-md-12 text-center">
+              <button type="button " class="btn btn-outline-success w-50 mt-5">
+                MESSAGE US
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
-</body>
+  </body>
+</html>

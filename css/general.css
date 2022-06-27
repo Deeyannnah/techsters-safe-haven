@@ -3,11 +3,27 @@ html,
 body {
     font-family: Poppins, Tahoma, sans-serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 .page {
     background-color: rgba(203, 234, 237, 0.2);
 }
+
+.container {
+    position: relative;
+}
+
+.scroll-btn {
+    position: absolute;
+    bottom: 120px;
+    transform: rotate(90deg);
+    text-decoration: none;
+    color: #111111;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
 
 .btn-link {
     text-transform: uppercase;
@@ -25,6 +41,8 @@ body {
     background-color: #006A71;
     border-color: transparent;
     text-transform: uppercase;
+    padding: .5rem 1.5rem;
+    border-radius: 12px;
 }
 
 .btn-primary:hover {
@@ -37,10 +55,93 @@ body {
     color: #111;
     border-color: transparent;
     text-transform: uppercase;
+    padding: .5rem 1.5rem;
+    border-radius: 12px;
 }
 
 .btn-secondary:hover {
     background-color: #ffffb5;
     color: #111;
     border-color: transparent;
+}
+
+/* Header styles */
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    background-color: #ffffff;
+    text-align: center;
+    height: 70px;
+    box-shadow: 0 0 5px rgba(17, 17, 17, .2);
+}
+
+header .container {
+    height: 100%;
+}
+
+header .logo {
+    position: absolute;
+    left: .75rem;
+    top: 15px;
+}
+
+header .logo img:first-child {
+    height: 40px;
+    width: auto;
+}
+
+header .logo img:last-child {
+    height: 18px;
+    width: auto;
+}
+
+header .request-btn {
+    position: absolute;
+    right: .75rem;
+    top: 14px;
+}
+
+header nav {
+    padding: 1.35rem 0;
+}
+
+
+header nav a {
+    color: #111111;
+    text-decoration: none;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #006a71;
+    text-decoration: underline;
+}
+
+
+.hero-title {
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.hero-title h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 100%;
+    color: #111111;
+}
+
+.hero-title h1 span {
+    color: #006a71;
+}
+
+.hero-title p {
+    padding: 0 10%;
+    color: #111111;
+    opacity: .8;
 }

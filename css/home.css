@@ -1,2 +1,230 @@
 /* For Home Page Specific Styles */
-.home {}
+.home .hero-section {
+    height: calc(100vh - 70px);
+    /* background-color: rgba(255, 255, 181, 0.2); */
+    margin-top: 70px;
+    background-image: url("../img/hero-img.png");
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: bottom center;
+}
+
+.home .hero-section .container {
+    height: 100%;
+}
+
+.home .hero-section .info {
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home .hero-section .info h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 100%;
+    color: #111111;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home .hero-section .info h1 span {
+    color: #006a71;
+}
+
+.home .hero-section .info p {
+    padding: 0 10%;
+    color: #111111;
+    opacity: .8;
+}
+
+.home .hero-section .scroll-btn {
+    color: #111111;
+    right: -2rem;
+}
+
+.home .hero-section .scroll-btn:hover {
+    color: #006a71 !important;
+}
+
+.home .hero-section .scroll-btn span {
+    font-size: 1.2rem;
+}
+
+.home .why-section {
+    min-height: 100vh;
+    background-color: #CBEAED;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+
+.home .why-section .info {
+    width: 40%;
+    position: sticky;
+    top: 120px;
+    z-index: 5;
+    background-color: #CBEAED;
+}
+
+
+.home .why-section .info h2 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #006a71;
+}
+
+.home .why-section .info p {
+    padding-right: 30%;
+}
+
+.home .why-section .scroll-btn {
+    left: -2rem;
+}
+
+.home .why-section .reasons {
+    width: 60%;
+    position: relative;
+    left: 40%;
+    margin-top: -3rem;
+    text-align: right;
+}
+
+.home .why-section .reasons .reason {
+    display: inline-block;
+    border-radius: 12px;
+    border: none;
+    width: calc(50% - 2rem);
+    margin-left: 1rem;
+    text-align: left;
+    padding: 3rem 2rem;
+}
+
+.home .why-section .reasons .reason:last-child {
+    width: 60%;
+    margin-top: 1.5rem;
+}
+
+.home .why-section .reasons .reason h4 {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.home .why-section .reasons .reason p {
+    opacity: .85;
+}
+
+.home .how-section {
+    min-height: 100vh;
+    padding: 7rem 0 4rem 0;
+    text-align: center;
+}
+
+.home .how-section .info {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.home .how-section .info h2 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #006a71;
+}
+
+.home .how-section .info p {
+    padding: 0 10%;
+}
+
+.home .how-section .services {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.home .how-section .services .service {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    text-align: left;
+    margin-bottom: 3.4rem;
+    padding-right: 1rem;
+}
+
+.home .how-section .services .service strong {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #eee;
+    color: #777;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.home .how-section .services .service h4 {
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+
+.home .how-section .services .service p {
+    margin-left: 80px;
+    font-size: .95rem;
+}
+
+.home .testimonial-section {
+    background-color: #ffffff;
+    padding: 5rem 0;
+}
+
+.home .testimonial-section h2 {
+    color: #006a71;
+    font-size: 3.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.home .testimonial-section p {
+    padding-right: 15%;
+}
+
+.home .testimonial-section strong {
+    color: #cd0000;
+}
+
+.home .gallery-section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.home .gallery-section h2 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #006a71;
+    margin-bottom: 1rem;
+}
+
+.home .gallery-section p {
+    width: 60%;
+    margin: 0 auto;
+    opacity: .7;
+}
+
+.home .gallery-section .carousel {
+    margin-top: 3rem;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.home .gallery-section .carousel .carousel-item {
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
