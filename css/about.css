@@ -1,0 +1,186 @@
+.about .banner {
+    background: url(../img/about-bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    background-position: top center;
+    height: 70vh;
+    position: relative;
+    text-align: center;
+}
+
+.about .banner-layer {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.about .agile_banner_margin {
+    padding: 18em 0em 0em;
+}
+
+.about .image_margin {
+    margin-top: 8em;
+}
+
+.about .agile_banner_info h2 {
+    font-size: 3.6rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.about .agile_banner_info p {
+    color: #fff;
+    margin: 1em 10%;
+    line-height: 160%;
+    font-size: 1rem;
+}
+
+.about .brief {
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+
+.about .brief p {
+    width: 64%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.about .brief-bg {
+    height: 70vh;
+    background-image: url("../img/about-fixed.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.about .brief-bg .brief-ovalay {
+    height: 100%;
+    background-color: rgba(17, 17, 17, .5);
+}
+
+.about .brief-bg .container {
+    height: 100%;
+}
+
+.about .brief-bg .row {
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
+
+.about .brief-bg p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-right: 15%;
+}
+
+.about .brief-bg ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.about .brief-bg ul li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: .5rem .75rem;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.about .impact {
+    padding: 6rem 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about .impact h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+}
+
+.about .impact h2 span {
+    color: #006A71;
+}
+
+.about .impact .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    border-radius: 12px;
+    border: 3px solid #eee;
+    padding: 2rem;
+}
+
+.about .impact .card p {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.about .corporate {
+    position: relative;
+    padding: 8rem 0;
+}
+
+.about .corporate::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 50%;
+    background-color: #006A71;
+    z-index: 1;
+}
+
+.about .corporate::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 50%;
+    background-color: #ffff9d;
+    z-index: 1;
+}
+
+.about .corporate .container {
+    position: relative;
+    z-index: 2;
+}
+
+.about .corporate .row .col:first-child {
+    color: #fff;
+    padding-right: 3rem;
+}
+
+.about .corporate .row .col:last-child {
+    color: #111;
+    padding-left: 6rem;
+}
+
+.about .corporate .row .col h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+
+.about .corporate .row .col:first-child ul {
+    padding-left: 1.2rem;
+}
+
+.about .corporate .row .col:first-child ul li {
+    font-size: 1.124rem;
+    margin-bottom: 1rem;
+    padding-right: 15%;
+}
