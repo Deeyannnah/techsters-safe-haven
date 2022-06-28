@@ -1,2 +1,149 @@
 /* For Stories Page Specific Styles */
-.stories {}
+.success-stories {}
+
+
+/*-- banner --*/
+.success-stories .banner {
+    background: url(../img/stories/background.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+    text-align: center;
+}
+
+.success-stories .banner-layer {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+.success-stories .agile_banner_margin {
+    padding: 14em 0em 0em;
+}
+
+.success-stories .image_margin {
+    margin-top: 8em;
+}
+
+.success-stories .agile_banner_info h2 {
+    font-size: 3.6rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.success-stories .agile_banner_info p {
+    color: #fff;
+    margin: 1em 0;
+    line-height: 160%;
+    font-size: 1rem;
+}
+
+/*-- // banner --*/
+
+/*-- experience --*/
+
+.success-stories .story {
+    background-color: #fff;
+}
+
+.success-stories .story-grids {
+    margin-top: 2em;
+}
+
+.success-stories .story-grids h4,
+.success-stories .story-grid1 h4 {
+    text-transform: capitalize;
+    color: #006a71;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.success-stories .story-grids h4 span,
+.success-stories .story-grid1 h4 span {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #111;
+    opacity: .6;
+}
+
+.success-stories .story-grids h4 {
+    padding-left: 3rem;
+}
+
+.success-stories .story-grids p {
+    line-height: 160%;
+    font-size: 1rem;
+    color: #111;
+    padding-left: 3em;
+}
+
+.success-stories .img-box {
+    text-align: right;
+    padding-right: 3em;
+    border-radius: 5px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.success-stories .stories1 {
+    padding-left: 3em;
+    ;
+}
+
+.success-stories .story-img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.success-stories .btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.success-stories .read-btn {
+    text-decoration: none;
+    color: #006a71;
+    border: 2px solid #006a71;
+    padding: 20px 60px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.success-stories .heading {
+    display: flex;
+    color: #006a71;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.success-stories .read-btn:hover {
+    background-color: #006a71;
+    color: #cbeaed;
+}
+
+.success-stories .main-title {
+    font-size: 70px;
+}
+
+
+.success-stories .story-grid1 p {
+    line-height: 160%;
+    font-size: 1rem;
+    color: #111;
+    padding-right: 3em;
+}
+
+
+/*-- //experience --*/

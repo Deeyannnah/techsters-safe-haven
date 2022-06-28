@@ -7,7 +7,11 @@
     <title>Safe Haven | Request Solace</title>
 
     <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/request.css" />
 
@@ -20,7 +24,7 @@
   </head>
 
   <body>
-    <header>
+    <header data-aos="fade-down">
       <div class="container">
         <a href="/" class="logo">
           <img src="img/favicon.svg" alt="Icon" />
@@ -28,13 +32,12 @@
         </a>
         <nav>
           <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
           <a href="./stories.html">Stories</a>
           <a href="./faq.html">FAQ</a>
         </nav>
 
-        <a class="btn btn-primary request-btn" href="./request.html"
-          >Request Help</a
-        >
+        <a class="btn btn-primary request-btn" href="./request.html">Request Help</a>
       </div>
       <div></div>
     </header>
@@ -49,9 +52,7 @@
           <div class="w-60 mx-auto p-5">
             <div class="mb-3 w-50 mx-auto">
               <div class="mb-3">
-                <label for="formGroupExampleInput " class="form-label"
-                  >YOUR NAME</label
-                >
+                <label for="formGroupExampleInput " class="form-label">YOUR NAME</label>
                 <input
                   type="text "
                   class="form-control"
@@ -70,33 +71,62 @@
               </div>
               <div class="mb-3">
                 <label for="emailInput" class="form-label">EMAIL ADDRESS</label>
-                <input
-                  type="email "
-                  class="form-control"
-                  id="emailInput "
-                  placeholder="name@example.com "
-                />
+                <input type="email " class="form-control" id="emailInput " placeholder="name@example.com " />
               </div>
               <div class="mb-3">
                 <label for="messageInput " class="form-label">MESSAGE</label>
-                <textarea
-                  class="form-control"
-                  id="messageInput"
-                  rows="3 "
-                ></textarea>
+                <textarea class="form-control" id="messageInput" rows="3 "></textarea>
               </div>
             </div>
             <div class="col-md-12 text-center">
-              <button type="button " class="btn btn-outline-success w-50 mt-5">
-                MESSAGE US
-              </button>
+              <button type="button " class="btn btn-outline-success w-50 mt-5">MESSAGE US</button>
             </div>
           </div>
         </div>
       </div>
     </main>
-    <footer></footer>
-    <script src="./js/bootstrap.min.js"></script>
+
+    <footer>
+      <div class="container">
+        <div class="newsletter">
+          <h4>Subscribe to our newsletter</h4>
+          <form>
+            <input
+              class="form-control-lg form-control-lg"
+              type="text"
+              placeholder="Give your email for weekly goodies"
+            />
+            <button class="btn btn-primary btn-lg">Sign up</button>
+          </form>
+        </div>
+        <div class="bottom">
+          <p class="copyright">&copy; Safe Haven: Techsters Women GP1</p>
+          <a class="tel" href="tel:+234 813 4001 567">+234 813 4001 567</a>
+          <div class="links">
+            <a class="social-link" href="http://twitter.com/safehaven">
+              <img src="./img/twitter.svg" alt="" />
+            </a>
+            <a class="social-link" href="http://instagram.com/safehaven">
+              <img src="./img/instagram.svg" alt="" />
+            </a>
+            <a class="social-link" href="http://facebook.com/safehaven">
+              <img src="./img/facebook.svg" alt="" />
+            </a>
+            <a class="social-link" href="http://linkedin.com/in/safehaven">
+              <img src="./img/linkedin.svg" alt="" />
+            </a>
+            <a class="social-link" href="http://youtube.com/safehaven">
+              <img src="./img/youtube.svg" alt="" />
+            </a>
+            <a class="btn btn-secondary donate-btn" href="#">Donate</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>

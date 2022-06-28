@@ -7,9 +7,13 @@
     <title>Safe Haven | Success Stories</title>
 
     <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
     <link rel="stylesheet" href="./css/general.css" />
-    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/stories.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +24,7 @@
   </head>
 
   <body>
-    <header>
+    <header data-aos="fade-down">
       <div class="container">
         <a href="/" class="logo">
           <img src="img/favicon.svg" alt="Icon" />
@@ -28,20 +32,218 @@
         </a>
         <nav>
           <a href="./index.html">Home</a>
-          <a href="./stories.html">Stories</a>
+          <a href="./about.html">About</a>
+          <a href="./stories.html" class="active">Stories</a>
           <a href="./faq.html">FAQ</a>
         </nav>
 
-        <a class="btn btn-primary request-btn" href="./request.html"
-          >Request Help</a
-        >
+        <a class="btn btn-primary request-btn" href="./request.html">Request Help</a>
       </div>
       <div></div>
     </header>
-    <main class="page request"></main>
-    <footer></footer>
+    <main class="page success-stories">
+      <!-- banner -->
+      <section class="banner">
+        <div class="banner-layer">
+          <div class="container">
+            <div class="row agile_banner_info">
+              <div class="col-md-8 m-auto agile_banner_margin">
+                <h2>Our Success Stories</h2>
+                <p>
+                  For over 5years, Safe Haven has successfully transformed 10,000 young womens life across west africa
+                  from not having a choice and voice to speaking and standing for theirselves again gender mutilationa
+                  and forced marriage. It was a challenge for us at first due to the rate at which the practice was in
+                  the west african region. Of cause we didn't do it alone, we had support from individuals and companies
+                  who share the same interest as us to carry out this mission and we are forever grateful for the
+                  support. Below are amazing stories from young women who have benefited from the foundation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //banner -->
 
-    <script src="./js/bootstrap.min.js"></script>
+      <!-- story -->
+      <section class="story py-5" id="story">
+        <div class="container py-3">
+          <div class="row story-grids" id="rukia">
+            <div
+              class="col-md-4 text-center stories wthree img-box"
+              style="background-image: url('./img/stories/rukia.jpg')"
+            ></div>
+            <div class="col-md-8 mt-md-0 mt-4 wthree story-box">
+              <h4 class="ml-5 mt-0 name-age">Rukia <span>30 years old</span></h4>
+              <p>
+                Rukia stands tall with confidence. A traditional beaded Maasai headpiece drapes down from the crown of
+                her head, and her bold, beaded necklace reads: “Stop FGM.” She’s a leader in her community and a women’s
+                rights advocate, and her journey here has been against all odds.” I was only 10 or 11 years old, when my
+                father decided to circumcise me. I was to become the fifth wife to a 70-year-old man. I talked to my
+                class teacher and she informed the police chief. Just two hours before the cutting ceremony, the police
+                came and took me away,” she recalls.
+              </p>
+              <p>
+                Rukia was the first girl in her village to say no to FGM.In the eight years that followed, Rukia lived
+                in a rescue center where safe haven provided far from all that was familiar. “The hardest thing for me
+                was leaving home, leaving my family. I couldn’t sleep…I would wake up in the middle of the night and
+                think, should I go back and get FGM?” she says.
+              </p>
+
+              <p>
+                For rukia and thousands of girls with similar stories, her escape impacted her family dynamics, and the
+                consequences weighed heavy on her shoulders. “Finishing school was a crucial step in Rukia’s journey
+                because it allowed her to define her own path. Today, Rukia works with an anti-FGM Board to help raise
+                awareness in local villages about the harmful consequences of the traditional practice.
+              </p>
+            </div>
+          </div>
+          <div class="row story-grid1 mt-5 wthree" id="joy">
+            <div class="col-md-8 mb-md-0 mb-4 text-left story-box">
+              <h4 class="mt-0 text-left name-age">Joy <span>17 years old</span></h4>
+              <p class="text-left">
+                Joy is seventeen years old. She takes extra classes at school, preparing for secondary school exams and
+                serves as Head Girl at the safe house in Serengeti, where she fled to escape FGM.Joy reached out safe
+                haven to help her out. “Many girls flee their homes with nothing more than the clothes they were
+                wearing,” says Kiwori, head matron of the safe house.
+              </p>
+
+              <p>
+                The home has ten rooms, each with four bunk-beds and small cubbies to store personal items. It was built
+                to accommodate 40 girls but has sheltered over 300 during the “high season”, when the Kurya tribe, the
+                predominant indigenous tribe in Mara, performs FGM.Through safe haven many girls like joy are able to
+                find safe houses and continue with their education.
+              </p>
+            </div>
+            <div class="col-md-4 stories1 wthree img-box" style="background-image: url('./img/stories/joy.jpg')"></div>
+          </div>
+          <div class="row story-grids" id="halima">
+            <div
+              class="col-md-4 text-center stories wthree img-box"
+              style="background-image: url('./img/stories/halima.jpg')"
+            ></div>
+            <div class="col-md-8 mt-md-0 mt-4 wthree story-box">
+              <h4 class="ml-5 mt-0 name-age">Halima <span>26 years old</span></h4>
+              <p>
+                As a social worker and rural woman leader in Upper Egypt, Halima goes to work each day for the rights
+                and wellbeing of girls and women. She fights for their access to education, their right to give full
+                consent before marriage and their entitlement to a life free of FGM and other harmful practices. Growing
+                up, Halima loved learning. After graduating high school, she was eager to continue her studies but
+                wasn’t allowed to make the decision for herself.
+              </p>
+
+              <p>
+                “It is difficult for a girl to continue her education in Upper Egypt,” Halima says. “I finished my [high
+                school] diploma but could not take my education any further as my parents decided that a diploma was
+                enough. My brothers also did not support the idea of educating the girls of the family,” she explains.
+                She married at age 18. “When I got married I wanted to devote my energy to work but my husband kept
+                saying that my house and children are my job,” recalls Halima. Eventually, with the support of safe
+                haven, she began working in a nursery, and several years later, after rigorous studying and
+                examinations, Halima was hired by the Ministry of Social Solidarity as a social worker.
+              </p>
+            </div>
+          </div>
+          <div class="row story-grid1 mt-5 wthree" id="neema">
+            <div class="col-md-8 mb-md-0 mb-4 text-left story-box">
+              <h4 class="mt-0 text-left name-age">Neema <span>22 years old</span></h4>
+              <p class="text-left">
+                Neema is a renowned activist, UN Women ambassador for Africa, a mother and a survivor of FGM. At 15
+                years old, she fled home in search of a safe place away from her family who wanted her to get married
+                after undergoing FGM. Neema got a scholarship to study abroad through safe haven travelled to New York
+                City there after she found a good man to marry.
+              </p>
+              <p>
+                It was then that she realized she had undergone FGM as a baby. “There are four types of FGM; I went
+                through “Type 3”, which is the total removal of the clitoris, and the labia and the vagina are stitched
+                together with only a small hole to urinate and menstruate. I realized that my marriage could not be
+                consummated till I was defibrillated. “When she became pregnant, Neem began anonymously speaking out
+                about FGM. “I knew that I don’t want my daughter to go through that.
+              </p>
+              <p>
+                I also knew that there are millions of girls out there that are just like my daughter and no one was
+                speaking up for them. And if it wasn’t me, then who else? “Propelled by her deeply personal relationship
+                to the issue, Neema’s anonymous advocacy soon grew to world-shaking shouts. “I screamed out against FGM
+                and child marriage, wrote blogs, threatened to call law enforcement if I could not leave my husband,
+                established an NGO to combat these practices and petitioned the Obama administration to investigate the
+                profile of FGM in the United States of America.”
+              </p>
+            </div>
+            <div
+              class="col-md-4 stories1 wthree img-box"
+              style="background-image: url('./img/stories/neema.jpg')"
+            ></div>
+          </div>
+          <div class="row story-grids" id="dabin">
+            <div
+              class="col-md-4 text-center stories wthree img-box"
+              style="background-image: url('./img/stories/dabin.jpg')"
+            ></div>
+            <div class="col-md-8 mt-md-0 mt-4 wthree story-box">
+              <h4 class="ml-5 mt-0 name-age">Dabin <span>21 years old</span></h4>
+              <p>
+                It was a difficult decision, but I am happy because I don’t think FGM could make me happier than my
+                education,” Dabin* (15).Dabin, 15, is a fierce leader, a child activist and an example in her community
+                and school. Five years ago, she refused to stay silent when she learned that her mother was planning for
+                her to undergo female genital mutilation (FGM).As in many other communities in Sierra Leone, FGM is
+                deeply-rooted in the Kabombeh community, to which Marie belongs.
+              </p>
+
+              <p>
+                The practice can cause lasting harm, including pain, infection, internal bleeding, psychological
+                repercussions and complications during child birth. FGM can even be fatal. As Dabin had learned about
+                these consequences from village activists, she refused to undergo the procedure. However, this meant she
+                would have to leave home and seek help. Fortunately, after Marie left home, she ran into someone who
+                told her about safe haven, which agreed to support her. “If I hadn’t had support, especially from safe
+                haven, things could have gone wrong for me and it would’ve remained with me for the rest of my life,”
+                she says.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //experience -->
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="newsletter">
+          <h4>Subscribe to our newsletter</h4>
+          <form>
+            <input
+              class="form-control-lg form-control-lg"
+              type="text"
+              placeholder="Give your email for weekly goodies"
+            />
+            <button class="btn btn-primary btn-lg">Sign up</button>
+          </form>
+        </div>
+        <div class="bottom">
+          <p class="copyright">&copy; Safe Haven: Techsters Women GP1</p>
+          <a class="tel" href="tel:+234 813 4001 567">+234 813 4001 567</a>
+          <div class="links">
+            <a class="social-link" href="http://twitter.com/safehaven">
+              <img src="./img/twitter.svg" alt="" />
+            </a>
+            <a class="social-link" href="http://instagram.com/safehaven">
+              <img src="./img/instagram.svg" alt="" />
+            </a>
+            <a class="social-link" href="http://facebook.com/safehaven">
+              <img src="./img/facebook.svg" alt="" />
+            </a>
+            <a class="social-link" href="http://linkedin.com/in/safehaven">
+              <img src="./img/linkedin.svg" alt="" />
+            </a>
+            <a class="social-link" href="http://youtube.com/safehaven">
+              <img src="./img/youtube.svg" alt="" />
+            </a>
+            <a class="btn btn-secondary donate-btn" href="#">Donate</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
